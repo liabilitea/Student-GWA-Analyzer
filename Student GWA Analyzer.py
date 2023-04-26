@@ -17,3 +17,5 @@ with open("samplerecord.txt", "r") as file:
             highest_student = name
 
 #Display the output
+
+print("\033[1;34mThe student with the highest GWA of\033[0m", "\033[1;32m" + str(highest_gwa),  "\033[0m" + "\033[1;34mis\033[0m",  "\033[1;32m" + highest_student + "\033[0m")
