@@ -8,7 +8,7 @@ This Python code reads a file containing a list of students and their GPAs, find
 
 1. Install Python on your computer to run the code. You can download its latest version here: https://www.python.org/downloads/
 2. Create a text file called "studentgwalist.txt" containing a list of students and their GWAs in the format "Name - GWA" on each line.
-3. Place the "numbers.txt" file in the same directory as the code file.
+3. Place the "studentgwalist.txt" file in the same directory as the code file.
 4. Copy the code from the repository. 
 5. Open an IDE and paste the code.
     + If you don't have an IDE, you can use any text editor from your computer and paste the code. 
