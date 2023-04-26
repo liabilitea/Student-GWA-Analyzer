@@ -11,5 +11,9 @@ with open("samplerecord.txt", "r") as file:
     # Compare the current GWA value with the highest GWA value
     # If the current GWA is lower than highest_gwa, update highest_gwa and highest_student
     # The lower the value, the higher the GWA
+        if highest_gwa is None or gwa < highest_gwa:
+            highest_gwa = gwa
+    # Update the name to the current highest
+            highest_student = name
 
 #Display the output
