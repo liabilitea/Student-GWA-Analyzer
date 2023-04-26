@@ -3,6 +3,8 @@ highest_gwa = None
 highest_student = ""
 
 #Open the txt file as read mode and iterate through each line of txt with for loop
+with open("samplerecord.txt", "r") as file:
+    for line in file:    
     #Split the each line into two parts, where the first part is the students' name and the second is their GWA
 
     # Compare the current GWA value with the highest GWA value
